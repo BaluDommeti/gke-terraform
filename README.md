@@ -10,8 +10,8 @@ terraform.tfvars: for assigning variables created in variables.tf.
 variables.tf: for declaring and adding doc/descriptions for the variables I use.
 
 Execution steps:
-Install the gcloud CLI and get it configured with gcloud init
-Install the latest Terraform
+Install the gcloud CLI and get it configured with gcloud init.
+Install the latest Terraform.
 With gcloud CLI installed, you can then easily install kubectl with the gcloud components install kubectl command.
 Download the service account JSON file and kept it in a desired location.
 
