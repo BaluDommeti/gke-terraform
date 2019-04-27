@@ -15,6 +15,6 @@ Terraform to build a Kubernetes cluster is pretty minimalistic. First, as I alwa
 3. With gcloud CLI installed, you can then easily install kubectl with the gcloud components install kubectl command.
 4. Download the service account JSON file and kept it in a desired location.
 
-terraform init
-terraform plan
-terraform apply
+#terraform init
+#terraform plan
+#terraform apply
