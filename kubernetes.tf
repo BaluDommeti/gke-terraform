@@ -3,10 +3,10 @@ resource "google_container_cluster" "gcp_kubernetes" {
   zone               = "us-west1-a"
   initial_node_count = "${var.gcp_cluster_count}"
 
-  additional_zones = [
-    "us-west1-b",
-    "us-west1-c",
-  ]
+#  additional_zones = [
+#    "us-west1-b",
+#    "us-west1-c",
+#  ]
 
   master_auth {
     username = "${var.linux_admin_username}"
@@ -22,9 +22,9 @@ resource "google_container_cluster" "gcp_kubernetes" {
     ]
 
     labels {
-      this-is-for = "dev-cluster"
+      this-is-for = "test-cluster"
     }
 
-    tags = ["dev", "work"]
+    tags = ["test", "work"]
   }
 }
