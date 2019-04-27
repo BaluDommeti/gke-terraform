@@ -25,6 +25,6 @@ resource "google_container_cluster" "gcp_kubernetes" {
       this-is-for = "test-cluster"
     }
 
-    tags = ["test", "work"]
+    tags = ["test", "cluster"]
   }
 }
