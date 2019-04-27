@@ -16,5 +16,7 @@ Terraform to build a Kubernetes cluster is pretty minimalistic. First, as I alwa
 4. Download the service account JSON file and kept it in a desired location.
 
 #terraform init
+
 #terraform plan
+
 #terraform apply
